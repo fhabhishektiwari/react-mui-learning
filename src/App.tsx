@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import { MuiSwitch } from './components/MuiSwitch';
+import { MuiRating } from './components/MuiRating';
 
 
 
 function App() {
   return (
     <>
-      <MuiSwitch/>
+      <MuiRating/>
 
       
     </>
