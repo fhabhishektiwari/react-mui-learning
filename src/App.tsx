@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import { MuiCheckbox } from './components/MuiCheckbox';
+import { MuiSwitch } from './components/MuiSwitch';
 
 
 
 function App() {
   return (
     <>
-      <MuiCheckbox/>
+      <MuiSwitch/>
 
       
     </>
