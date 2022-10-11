@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import { MuiRadioButton } from './components/MuiRadioButton';
+import { MuiCheckbox } from './components/MuiCheckbox';
 
 
 
 function App() {
   return (
     <>
-      <MuiRadioButton/>
+      <MuiCheckbox/>
 
       
     </>
