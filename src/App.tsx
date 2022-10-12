@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
+import { MuiDrawer } from './components/MuiDrawer';
 
 
 
@@ -8,7 +8,7 @@ import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
 function App() {
   return (
     <div className=''>
-      <MuiBreadcrumbs/>
+      <MuiDrawer/>
 
       
     </div>
