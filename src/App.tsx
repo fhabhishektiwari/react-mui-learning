@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import { MuiRating } from './components/MuiRating';
+import { MuiAutocomplete } from './components/MuiAutocomplete';
+
 
 
 
 function App() {
   return (
     <>
-      <MuiRating/>
+      <MuiAutocomplete/>
 
       
     </>
