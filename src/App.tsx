@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { MuiMenu } from './components/MuiMenu';
+import { MuiLink } from './components/MuiLink';
 
 
 
@@ -8,7 +8,7 @@ import { MuiMenu } from './components/MuiMenu';
 function App() {
   return (
     <div className=''>
-      <MuiMenu/>
+      <MuiLink/>
 
       
     </div>
