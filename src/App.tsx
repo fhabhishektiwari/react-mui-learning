@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { MuiDrawer } from './components/MuiDrawer';
+import { MuiSpeedDial } from './components/MuiSpeedDial';
 
 
 
@@ -8,7 +8,7 @@ import { MuiDrawer } from './components/MuiDrawer';
 function App() {
   return (
     <div className=''>
-      <MuiDrawer/>
+      <MuiSpeedDial/>
 
       
     </div>
