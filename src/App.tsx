@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
 
-import { MuiImageList } from './components/MuiImageList';
+
+import { MuiNavbar } from './components/MuiNavbar';
 
 
 
 
 function App() {
   return (
-    <div className='' style={{margin:'12px'}}>
-      <MuiImageList/>
+    <div className=''>
+      <MuiNavbar/>
 
       
     </div>
