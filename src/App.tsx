@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import { MuiAccordion } from './components/MuiAccordion';
+
+import { MuiImageList } from './components/MuiImageList';
 
 
 
@@ -8,7 +9,7 @@ import { MuiAccordion } from './components/MuiAccordion';
 function App() {
   return (
     <div className='' style={{margin:'12px'}}>
-      <MuiAccordion/>
+      <MuiImageList/>
 
       
     </div>
