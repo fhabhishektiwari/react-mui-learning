@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
-import { MuiPaper } from './components/MuiPaper';
-
+import { MuiCard } from './components/MuiCard';
 
 
 
 function App() {
   return (
-    <div className='App'>
-      <MuiPaper/>
+    <div className='' style={{margin:'12px'}}>
+      <MuiCard/>
 
       
     </div>
