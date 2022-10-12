@@ -1,17 +1,17 @@
 import React from 'react';
 import './App.css';
-import { MuiAutocomplete } from './components/MuiAutocomplete';
+import { MuiLayout } from './components/MuiLayout';
 
 
 
 
 function App() {
   return (
-    <>
-      <MuiAutocomplete/>
+    <div className='App'>
+      <MuiLayout/>
 
       
-    </>
+    </div>
   );
 }
 
