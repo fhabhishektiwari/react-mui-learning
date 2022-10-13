@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import { MuiAvatar } from './components/MuiAvatar';
+import { MuiBadge } from './components/MuiBadge';
 
 
 
 function App() {
   return (
     <div className=''>
-      <MuiAvatar/>
+      <MuiBadge/>
 
       
     </div>
