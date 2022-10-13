@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tooltip, IconButton, Chip } from '@mui/material'
+import { Tooltip, IconButton} from '@mui/material'
 import { Delete } from '@mui/icons-material'
 
 export const MuiTooltip = () => {
