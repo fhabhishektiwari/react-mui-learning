@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import { MuiChip } from './components/MuiChip';
+import { MuiTooltip } from './components/MuiTooltip';
 
 
 
 function App() {
   return (
     <div className=''>
-      <MuiChip/>
+      <MuiTooltip/>
 
       
     </div>
