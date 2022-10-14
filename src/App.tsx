@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import { MuiSnackbars } from './components/MuiSnackbars';
+import { MuiDialog } from './components/MuiDialog';
 
 function App() {
   return (
     <div className=''>
-      <MuiSnackbars/>
+      <MuiDialog/>
     </div>
   );
 }
