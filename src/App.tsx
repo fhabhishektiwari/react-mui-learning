@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import {MuiTimeline} from './components/MuiTimeline';
+import { MuiMasonry } from './components/MuiMasonry';
 
 function App() {
   return (
 
     <div className=''>
-      <MuiTimeline/>
+      <MuiMasonry/>
     </div>
   );
 }
