@@ -5,14 +5,14 @@ import { AdapterDayjs } from '@mui/x-date-pickers-pro/AdapterDayjs';
 import {AdapterDateFns} from '@mui/x-date-pickers/AdapterDateFns'
 
 import { MuiDateRangePicker } from './components/MuiDateRangePicker';
+import {MiuTabs} from './components/MiuTabs';
 
 function App() {
   return (
-    <LocalizationProvider dateAdapter={AdapterDayjs} localeText={{ start: 'Check-in', end: 'Check-out' }}>
+
     <div className=''>
-      <MuiDateRangePicker/>
+      <MiuTabs/>
     </div>
-    </LocalizationProvider>
   );
 }
 
