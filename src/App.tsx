@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
-import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+import { LocalizationProvider } from '@mui/x-date-pickers-pro';
+import { AdapterDayjs } from '@mui/x-date-pickers-pro/AdapterDayjs';
 import {AdapterDateFns} from '@mui/x-date-pickers/AdapterDateFns'
-import { MuiDatePicker } from './components/MuiDatePicker';
+
+import { MuiDateRangePicker } from './components/MuiDateRangePicker';
 
 function App() {
   return (
-    <LocalizationProvider dateAdapter={AdapterDateFns}>
+    <LocalizationProvider dateAdapter={AdapterDayjs} localeText={{ start: 'Check-in', end: 'Check-out' }}>
     <div className=''>
-      <MuiDatePicker/>
+      <MuiDateRangePicker/>
     </div>
     </LocalizationProvider>
   );
