@@ -1,12 +1,17 @@
 import React from 'react';
 import './App.css';
-import { MuiLoadingButton } from './components/MuiLoadingButton';
+import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+import {AdapterDateFns} from '@mui/x-date-pickers/AdapterDateFns'
+import { MuiDatePicker } from './components/MuiDatePicker';
 
 function App() {
   return (
+    <LocalizationProvider dateAdapter={AdapterDateFns}>
     <div className=''>
-      <MuiLoadingButton/>
+      <MuiDatePicker/>
     </div>
+    </LocalizationProvider>
   );
 }
 
