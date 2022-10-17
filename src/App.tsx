@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import { MuiMasonry } from './components/MuiMasonry';
+import { MuiResponsiveness } from './components/MuiResponsiveness';
 
 function App() {
   return (
 
     <div className=''>
-      <MuiMasonry/>
+      <MuiResponsiveness/>
     </div>
   );
 }
