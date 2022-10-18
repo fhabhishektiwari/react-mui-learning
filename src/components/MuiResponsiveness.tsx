@@ -1,7 +1,16 @@
 import React from 'react'
-import {Box} from '@mui/material'
+import {Box,styled} from '@mui/material'
+
+const StyledBox=styled(Box)(({theme})=>({
+    height:250,
+    width:250,
+    // backgroundColor:theme.status.danger
+    backgroundColor:theme.palette.neutral?.darker,
+}))
+
 export const MuiResponsiveness = () => {
   return (
+    <>
     <Box sx={{
         height:300,
         width:{
@@ -11,7 +20,9 @@ export const MuiResponsiveness = () => {
             lg:400,//1200
             xl:500,//1536
         },
-        bgcolor:'primary.main'
+        bgcolor:'secondary.dark'
     }}></Box>
+    <StyledBox/>
+    </>
   )
 }
